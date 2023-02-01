@@ -1,6 +1,6 @@
 # send-emails-python
 
-Aplicação desenvolvida em python para automatizar o envio de mails automáticos a partir de uma lista de dicionários, contendo as informações dos destinatários.
+Aplicação desenvolvida em python para automatizar o envio de emails e sms automáticos a partir de uma lista de dicionários, contendo as informações dos destinatários.
 
 ## Instalação
 
@@ -21,7 +21,7 @@ Após o ambiente configurado, renomeie o arquivo `.env.example` para `.env` e co
 Faça o mesmo com o `receivers.py.example` para `receivers.py`. Nesse arquivo, você deverá preencher a lista com dicionários contendo as informações dos destinatários, nesse formato
 
 ```json
-{ "name": "nome do destinatário", "email": "email do destinatário" }
+{ "name": "nome do destinatário", "email": "email do destinatário", "number": 00000000000 }
 ```
 
 Para o envio dos SMS's, é utilizada a api [SMSDev](https://www.smsdev.com.br/envio-sms/).
