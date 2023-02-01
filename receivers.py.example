@@ -1,9 +1,11 @@
-# lista com os emails dos destinatários
+# crie uma lista chamada 'receivers' com os emails dos destinatários
 # preencha cada posição da lista com as informações 
 # do destinatário, como descrito no exemplo:
 
 receivers = [
-                {"name": "Destinatário 1", "email": "dest1@email.com"},
-                {"name": "Destinatário 2", "email": "dest2@email.com"},
-                {"name": "Destinatário 3", "email": "dest3@email.com"},
+                {"name": "Destinatário 1", "email": "dest1@email.com", "number":00000000000},
+                {"name": "Destinatário 2", "email": "dest2@email.com", "number": 11111111111},
+                {"name": "Destinatário 3", "email": "dest3@email.com", "number": 22222222222},
             ]
+
+

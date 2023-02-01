@@ -24,6 +24,8 @@ Faça o mesmo com o `receivers.py.example` para `receivers.py`. Nesse arquivo, v
 { "name": "nome do destinatário", "email": "email do destinatário" }
 ```
 
+Para o envio dos SMS's, é utilizada a api [SMSDev](https://www.smsdev.com.br/envio-sms/).
+
 ## Execução
 
-Após configurar o ambiente e suas varáveis, rode o comando `python app.py` e os email serão enviados automaticamente. Note que dependendo do tamanho da sua lista, pode haver um delay.
+Após configurar o ambiente e suas varáveis, rode o comando `python app.py` e os Email's e SMS's serão enviados automaticamente. Note que dependendo do tamanho da sua lista, pode haver um delay.
